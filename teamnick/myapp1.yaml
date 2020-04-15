@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: myapp1
+  name: myapp1
+  namespace: team-nick
+spec:
+  containers:
+  - image: nginx
+    name: myapp1
